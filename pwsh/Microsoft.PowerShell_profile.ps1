@@ -42,4 +42,4 @@ function gps { git push }
 $env:VIRTUAL_ENV_DISABLE_PROMPT = 1  # Let Oh-My-Posh handle the Python venv name display
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\clean-detailed.omp.json" | Invoke-Expression
 
-cd ~
+fastfetch
